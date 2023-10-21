@@ -15,7 +15,8 @@ module.exports = {
         't-violet': "#7B39FF"
       },
       colors: {
-        'violet-alt': "#7B39FF"
+        'violet-alt': "#7B39FF",
+        'h1-text': "#3A206D"
       }
     },
   },
