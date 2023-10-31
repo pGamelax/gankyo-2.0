@@ -11,7 +11,7 @@ export default function SideBar({children}) {
             <img src="/logo.svg" width={120} className=" ml-4" />
           </div>
           <div className="mt-2">
-            <Link href="#" className="flex flex-row gap-2 h-12 ml-4 items-center">
+            <Link href="/dashboard" className="flex flex-row gap-2 h-12 ml-4 items-center">
               <img src="/home-icon.svg" width={20} />
               <span className="text-zinc-300 hover:text-zinc-400">
                 Dashboard
@@ -28,10 +28,10 @@ export default function SideBar({children}) {
                 </span>
               </li>
               <li className="text-zinc-300 flex items-center h-10 lg:h-12 ml-4 w-48 hover:text-zinc-400 hover:cursor-pointer">
-                <span className="flex flex-row gap-2">
+                <Link className="flex flex-row gap-2" target="_blank" href="/produtos">
                   <img src="/clipboard.svg" width={20} />
                   Produtos
-                </span>
+                </Link>
               </li>
               <li className="text-zinc-300 flex items-center h-10 lg:h-12 ml-4 w-48 hover:text-zinc-400 hover:cursor-pointer">
                 <span className="flex flex-row gap-2">

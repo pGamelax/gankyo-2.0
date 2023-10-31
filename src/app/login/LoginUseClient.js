@@ -35,7 +35,7 @@ export default function LoginUseClient() {
                   {...register("username")}
                   type="text"
                   placeholder="Usuário"
-                  className="w-80 h-11 ml-1 outline-none border rounded bg-zinc-100 p-2 focus:border focus:border-violet-alt"
+                  className="w-80 h-11 ml-1 outline-none border rounded bg-zinc-100 p-2 focus:border focus:border-violet-alt sha"
                 />
               </div>
               <div className="flex flex-col mt-2">

@@ -7,6 +7,8 @@ module.exports = {
   ],
   theme: {
     extend: {
+      
+     
       backgroundImage: {
         'login-image': "url('/gankyo-maior.svg')"
       },

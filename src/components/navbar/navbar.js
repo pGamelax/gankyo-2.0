@@ -1,10 +1,7 @@
 import Link from "next/link";
 
-export default function Navbar() {
-  const options = [
-    { name: "Entrada", href: "#" },
-    { name: "Saida", href: "#" },
-  ];
+export default function Navbar({options}) {
+ 
   return (
     <div>
       <div className="h-12 bg-white rounded shadow-md flex flex-row items-center">
